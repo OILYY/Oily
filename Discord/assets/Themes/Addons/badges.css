@@ -1,0 +1,152 @@
+/*=============================================
+=                   Badges                   =
+=============================================*/
+
+/*----------  General  ----------*/
+
+/* small */
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* small - padding */ 
+.avatar__991e2[src*="731431244235145216"],
+.avatar__991e2[src*="822369519690711050"],
+.avatar__991e2[src*="392949064632893442"],
+.avatar__991e2[src*="1032786286404190268"])
+>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1{
+	padding-left: 25px;
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* img */
+	.avatar__991e2[src*="731431244235145216"],
+	.avatar__991e2[src*="822369519690711050"],
+	.avatar__991e2[src*="392949064632893442"],
+	.avatar__991e2[src*="1032786286404190268"])
+>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before{
+	position: absolute;
+	top:4px;
+	left:3px;
+	content:"";
+
+	width: 22px;
+  height: 22px;
+
+	border-radius: 100%;
+	background-size: contain;
+
+	background-image: var(--badges_img)!important;
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* text */ 
+.avatar__991e2[src*="731431244235145216"],
+.avatar__991e2[src*="822369519690711050"],
+.avatar__991e2[src*="392949064632893442"],
+.avatar__991e2[src*="1032786286404190268"])
+>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::after{
+	position: absolute;
+	top:-39px;
+  left: -40px;
+
+	width: fit-content;
+  height: fit-content;
+
+  min-width: 100px;
+  min-height: 29px;
+
+  padding: 2px 0px;
+  margin: 0 3px;
+
+	border-radius: 8px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background:var(--opacity03);
+	backdrop-filter: var(--blur4);
+
+	color:#fff;
+}
+
+/* big */
+.userProfileModalInner__7c87d.userProfileInner__8065b div:has(
+	.avatar__991e2[src*="731431244235145216"],
+	.avatar__991e2[src*="822369519690711050"],
+	.avatar__991e2[src*="392949064632893442"],
+	.avatar__991e2[src*="1032786286404190268"])
+.headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{ /* big - img*/
+	position: relative;
+	content:"";
+	width: 22px;
+	height: 22px;
+	background-size: contain;
+	border-radius: 100%;
+	background-image:var(--badges_img);
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has( /* text */ 
+.avatar__991e2[src*="731431244235145216"],
+.avatar__991e2[src*="822369519690711050"],
+.avatar__991e2[src*="392949064632893442"],
+.avatar__991e2[src*="1032786286404190268"])
+.container__5bda1::after{
+	position: absolute;
+	top:-39px;
+  left: -40px;
+
+	width: fit-content;
+  height: fit-content;
+
+  min-width: 100px;
+  min-height: 29px;
+
+  padding: 2px 0px;
+  margin: 0 3px;
+
+	border-radius: 8px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background:var(--opacity03);
+	backdrop-filter: var(--blur4);
+
+	color:#fff;
+}
+/*----------  OILYY 731431244235145216  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="731431244235145216"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b div:has(img.avatar__991e2[src*="731431244235145216"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://OILYY.github.io/Oily/Discord/assets/HomeIcon/IconSelected.png);
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="731431244235145216"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{ /* OILYY - small - text */
+	content:"Hello Oily";
+}
+
+/*----------  AverageJoe 822369519690711050  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="822369519690711050"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b div:has(img.avatar__991e2[src*="822369519690711050"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://cdn.discordapp.com/avatars/822369519690711050/41f459206e1a001c6e84b74c0e1279af.webp?size=4096);
+}
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="802381130916954132"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{
+	content:"Hello Ace";
+}
+
+/*---------- Linked 392949064632893442  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="392949064632893442"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b div:has(img.avatar__991e2[src*="392949064632893442"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://cdn.discordapp.com/avatars/392949064632893442/bd082e3d5e0928e679894457844fc81c.webp?size=4096);
+}
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="392949064632893442"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{
+	content:"Hello Linked";
+}
+
+/*---------- Puffy 1032786286404190268  ----------*/
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="1032786286404190268"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1::before,
+.userProfileModalInner__7c87d.userProfileInner__8065b div:has(img.avatar__991e2[src*="1032786286404190268"]) .headerTop__6628b>.badgeList_c193e3.containerWithContent__7e98f.container__5bda1::before{
+	--badges_img: url(https://cdn.discordapp.com/avatars/1032786286404190268/3e354afa97affa1fb5ced81b27acb7cb.webp?size=4096);
+}
+
+.userPopoutInner_f545a3.userProfileInner__8065b:has(.avatar__991e2[src*="1032786286404190268"])>.profileBadges__7a7cb.containerWithContent__7e98f.container__5bda1:hover::after{ 
+	content:"Hello Puffy";
+}
+
+/*=====  End of Section Badges  ======*/

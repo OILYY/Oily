@@ -1,0 +1,4 @@
+:root{
+	--version:var(--showversion)!important;
+	--Oily_build: "Pre-Release"!important;
+}
